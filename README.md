@@ -1,5 +1,8 @@
-# code of conduct
+# readme
 
-This repository is template of my project.
-default LICENSE, Code of Conduct, README is here.
+this is my projects's template.
+create base file:
 
+- LICENSE
+- .gitignore
+- .editorconfig
