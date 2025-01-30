@@ -32,5 +32,8 @@
 # Local History for Visual Studio Code
 .history/
 
-# Built Visual Studio Code Extensions
-*.vsix
+## Logfiles
+**.log
+
+## Node
+node_modules
