@@ -1,19 +1,17 @@
-## @(#) : husky pre-commit
+## @(#) : husky commit-msg
 #
 # @version 1.0.0
 # @author  Furukawa, Atsushi <atsushifx@gmail.com>
-# @date    2024-12-31
+# @date    2025-01-30
 # @license MIT
 #
 # @desc<<
 #
-# git pre-commit check script from husky
+# git commic message check script
 #
 #<<
 
 ## initialize
 WD=$(dirname "$0" )
 
-## check files
-gitleaks protect --staged
-
+commitlint --edit "$1"
