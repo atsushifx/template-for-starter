@@ -75,9 +75,13 @@ tab_width = 2
 ### Shell Scripts
 # shell script
 [**.{sh,bash,zsh}]
+
+# powershell script
+[**.ps1]
 indent_style = space
-indent_size = 2
-tab_width = 2
+indent_size = 4
+tab_width = 4
+
 
 ### Git config
 # for git config
