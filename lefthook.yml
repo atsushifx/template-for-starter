@@ -26,4 +26,4 @@ commit-msg:
   parallel: true
   commands:
     commitlint:
-      run: pnpx commitlint -e
+      run: commitlint -e
