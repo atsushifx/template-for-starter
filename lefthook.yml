@@ -16,7 +16,7 @@ pre-commit:
   commands:
     gitleaks:
       glob: '**/*'
-      run: gitleaks protect --config ./configs/gitleaks.toml --staged --maskSecrets
+      run: gitleaks protect --config ./configs/gitleaks.toml --staged
 
     secretlint:
       glob: '**/*'

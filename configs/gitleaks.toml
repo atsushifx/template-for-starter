@@ -1,7 +1,7 @@
 # src: ./configs/gitleaks.toml
 # @(#) : detect generic API key
 #
-# @versiono	1.0.0
+# @version	1.0.0
 # @since	2025-05-05
 # @author	atsushifx <atsushifx@aglabo.com>
 # @license	MIT
@@ -12,14 +12,11 @@
 
 title = "Gitleaks config"
 
-[allowlist]
-# 除外ファイルやパターン（必要に応じて）
-files = [
-  '''node_modules/**'''
-  '''.*\.lock'''
+[[allowlists]]
+paths = [
+	"'''node_modules/.*'''"
 ]
 
-[log]
 level = "warn"
 redact = true
 
