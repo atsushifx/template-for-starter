@@ -20,7 +20,7 @@ pre-commit:
 
     secretlint:
       glob: '**/*'
-      run: secretlint --maskSecrets --secretlintignore .gitignore "{staged_files}"
+      run: secretlint --secretlintignore .\.gitignore  --maskSecrets "{staged_files}"
 
 # check commit message style
 commit-msg:
