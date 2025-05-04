@@ -1,4 +1,4 @@
-// /shared/configs/commitlint.config.base.ts
+// src: configs/commitlint.config.js
 // @(#) : commitlint configuration for this workspace
 /**
  * @version   1.0.0
@@ -15,10 +15,11 @@
  * <<
  */
 
-import type { UserConfig } from '@commitlint/types';
+// type check for typescript
+// import type { UserConfig } from '@commitlint/types'//;
 
 // commit lint common configs
-const baseConfig: UserConfig = {
+const baseConfig = {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'type-enum': [2, 'always', [
