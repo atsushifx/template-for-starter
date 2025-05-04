@@ -1,9 +1,9 @@
 ## @(#) : lefthook config
 #
-# @version 1.0.0
-# @author  Furukawa, Atsushi <atsushifx@gmail.com>
-# @date    2024-02-05
-# @license MIT
+# @version  1.0.0
+# @author   atsushifx <atsushifx@aglabo.com>
+# @since    2024-02-05
+# @license  MIT
 #
 # @desc<<
 #
@@ -26,4 +26,4 @@ commit-msg:
   parallel: true
   commands:
     commitlint:
-      run: commitlint -e
+      run: commitlint --config ./configs/commitlint.config.js --edit

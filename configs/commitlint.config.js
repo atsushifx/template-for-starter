@@ -31,6 +31,9 @@ const baseConfig: UserConfig = {
       'perf',
       'ci',
       'merge',
+	  "build",
+	  "style",
+	  "deps",
     ]],
     'subject-case': [2, 'never', ['start-case', 'pascal-case']], // etc
     'header-max-length': [2, 'always', 72],
