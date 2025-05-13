@@ -28,6 +28,7 @@ pre-commit:
         --maskSecrets
         "{staged_files}"
 
+
 commit-msg:
   parallel: true
   commands:

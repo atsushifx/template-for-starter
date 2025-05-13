@@ -12,41 +12,37 @@
 // Ensures consistent code and documentation formatting across the project.
 //
 // <<
-
 {
   "$schema": "https://dprint.dev/schemas/v0.json",
-
   // Global settings
   "lineWidth": 120,
   "indentWidth": 2,
   "useTabs": false,
   "newLineKind": "lf",
-
   // Include/Exclude patterns
   "includes": [
+    "**/*.js",
     "**/*.ts",
     "**/*.json",
     "**/*.jsonc",
     "**/*.yml",
     "**/*.yaml",
-    "shared/configs/**/*"
+    "**/*.md",
   ],
   "excludes": [
     "**/node_modules/**",
     "**/*lock*",
     "**/lib/**",
     "**/module/**",
-    "**/dist/**"
+    "**/dist/**",
   ],
-
   // Plugins
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.93.4.wasm",
     "https://plugins.dprint.dev/json-0.19.4.wasm",
     "https://plugins.dprint.dev/markdown-0.17.8.wasm",
-    "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.0.wasm"
+    "https://plugins.dprint.dev/g-plane/pretty_yaml-v0.5.0.wasm",
   ],
-
   // Language-specific settings
   "typescript": {
     "indentWidth": 2,
@@ -55,9 +51,9 @@
     "preferSingleLine": false,
     "useBraces": "always",
     "arrowFunction.useParentheses": "force",
-    "trailingCommas": "onlyMultiLine"
+    "trailingCommas": "onlyMultiLine",
   },
   "json": {},
   "markdown": {},
-  "yaml": {}
+  "yaml": {},
 }
