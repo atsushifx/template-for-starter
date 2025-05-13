@@ -1,4 +1,5 @@
-## @(#) : textlintrc.yaml: yaml type textlint config
+# src: ./configs/textlintrc.yaml
+## @(#) : yaml type textlint config
 #
 # @version	1.0.0
 # @author   atsushifx <atsushifx@gmail.com>

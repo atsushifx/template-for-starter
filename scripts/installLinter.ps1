@@ -8,7 +8,7 @@
 
   .NOTES
     @Version  1.4.1
-    @Author   atsushifx <atsushifx@gmail.com>
+    @Author   atsushifx <https://github.com/atsushifx>
     @Since    2025-02-07
     @License  MIT https://opensource.org/licenses/MIT
 #>

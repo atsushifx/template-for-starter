@@ -3,7 +3,7 @@
 ##  @(#) : textlint prh dictionary for user settings
 #
 # @version 1.0.0
-# @author  atsushifx <atsushifx@gmail.com>
+# @author  atsushifx <https://github.com/atsushifx>
 # @since   2025-04-17
 # @license MIT
 #
@@ -14,9 +14,9 @@
 
 ## dict start
 rules:
-  # - expected: 修正後の表現
-  #   pattern: 修正対象（正規表現も可）
-  #   specs:
-  #     - from: 誤り
-  #       to:   正しい表現
+# - expected: 修正後の表現
+#   pattern: 修正対象（正規表現も可）
+#   specs:
+#     - from: 誤り
+#       to:   正しい表現
 ## end of dict

@@ -10,7 +10,7 @@
 .NOTES
     @Version  1.3.1
     @Since    2025-04-18
-    @Author   atsushifx <atsushifx@gmail.com>
+    @Author   atsushifx <https://github.com/atsushifx>
     @License  MIT <https://opensource.org/licenses/MIT>
 #>
 
