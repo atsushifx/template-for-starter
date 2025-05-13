@@ -35,6 +35,7 @@ const baseConfig = {
 
       // === Custom additions ===
       'config', // (custom) For configuration changes
+      'release', // (custom) For releases
       'merge', // (custom) For merge commits, especially when conflict resolution involved
       'build', // (custom) For build system or external dependencies
       'style', // (custom) Non-functional code style changes (e.g., formatting, linting)
