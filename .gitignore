@@ -35,6 +35,9 @@ $~*
 *swp
 *lock
 
+#	env
+.env*
+
 ##		Editor
 #	VSCode
 .vscode/*

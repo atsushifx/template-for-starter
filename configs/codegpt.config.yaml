@@ -1,0 +1,7 @@
+openai:
+  provider: "openai"
+  model: gpt-4o
+
+output:
+  lang: ja
+
