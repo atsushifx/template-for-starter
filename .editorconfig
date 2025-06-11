@@ -1,18 +1,10 @@
-## @(#) : editorconfig common template for atsushifx
-##
-## EditorConfig is awesome: https://EditorConfig.org
+# src: .editorconfig :: EditorConfig is awesome: https://EditorConfig.org
+# @(#) : editorconfig for common config files
 #
-# @version  1.2.0
-# @date     2025-04-25
-# @author   atsushifx <https://github.com/atsushifx/>
-# @license  MIT
+# Copyright (c) 2025 atsushifx <http://github.com/atsushifx>
 #
-# @description<<
-#
-# Common editor settings for general programming and documentation files.
-# Applies consistent indentation and line-ending rules.
-#
-#<<
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
 
 root = true
 
@@ -94,10 +86,12 @@ tab_width = 4
 # ─────────────────────────────
 [*.git*]
 indent_style = tab
+indent_size = 4
 tab_width = 4
 
 [**/git/*]
 indent_style = tab
+indent_size = 4
 tab_width = 4
 
 # ─────────────────────────────

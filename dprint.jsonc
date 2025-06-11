@@ -1,17 +1,10 @@
+// src: ./dprint.jsonc
 // @(#) : dprint configuration for project formatting
 //
-// @version   1.0.0
-// @date      2025-04-25
-// @author    atsushifx <https://github.com/atsushifx>
-// @license   MIT
+// Copyright (c) 2025 atsushifx <http://github.com/atsushifx>
 //
-// @description<<
-//
-// Dprint configuration for formatting TypeScript, JSON, YAML, and Markdown files.
-// Uses WASM-based plugins with strict formatting rules.
-// Ensures consistent code and documentation formatting across the project.
-//
-// <<
+// This software is released under the MIT License.
+// https://opensource.org/licenses/MIT
 {
   "$schema": "https://dprint.dev/schemas/v0.json",
   // Global settings
@@ -27,14 +20,20 @@
     "**/*.jsonc",
     "**/*.yml",
     "**/*.yaml",
+    // Documents
     "**/*.md",
   ],
   "excludes": [
     "**/node_modules/**",
-    "**/*lock*",
+    "**/*lock",
     "**/lib/**",
     "**/module/**",
     "**/dist/**",
+    //
+    "**lock.*",
+    // Documents
+    "CONTRIBUTING**.md",
+    "CODE_OF_CONDUCT**.md",
   ],
   // Plugins
   "plugins": [
@@ -54,6 +53,8 @@
     "trailingCommas": "onlyMultiLine",
   },
   "json": {},
-  "markdown": {},
+  "markdown": {
+    "emphasisKind": "asterisks",
+  },
   "yaml": {},
 }
