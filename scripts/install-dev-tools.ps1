@@ -43,13 +43,21 @@ $ScoopPackages = @(
 )
 
 $PnpmPackages = @(
+    # コミットメッセージチェック
     "commitlint",
     "@commitlint/cli",
     "@commitlint/config-conventional",
     "@commitlint/types",
+
+    # 機密情報の漏洩チェック
     "secretlint",
     "@secretlint/secretlint-rule-preset-recommend",
-    "cspell"
+
+    # スペルチェック
+    "cspell",
+
+    # AIエージェント
+    "@anthropic/claude-code",
 )
 
 $EgetPackages = @(
