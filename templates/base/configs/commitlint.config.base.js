@@ -1,13 +1,13 @@
-// src: configs/commitlint.config.js
-// @(#) : commitlint configuration for this workspace
+// src: shared/configs/commitlint.config.base.ts
+// @(#) : commitlint base configuration
 //
 // Copyright (c) 2025 atsushifx <https://github.com/atsushifx>
 //
-// Released under the MIT License.
+// This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
 // type check for typescript
-// import type { UserConfig } from '@commitlint/types'//;
+// import type { UserConfig } from '@commitlint/types';
 
 // commit lint common configs
 const baseConfig = {
