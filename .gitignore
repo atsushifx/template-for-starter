@@ -11,8 +11,11 @@
 .DS_Store
 thumbs.db
 
-# logs, patches
-*.log*
+# logs
+*.log
+logs
+
+# patches
 *.diff
 *.patch
 
@@ -36,15 +39,40 @@ $~*
 *swp
 *lock
 
+## temporary directory
+**/temp/
+**/tmp/
+
 ##		Editor
 #	VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
-!.vscode/cspell*
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
+!**/.vscode/*.code-snippets
+!**/.vscode/cspell*
+
+
+
+###	AI Agent
+# claude code
+**/.claude/*
+.claude/*
+!.clause/setting.json
+!.claude/commands
+!.claude/commands/*
+
+# CLAUDE Memory file
+!CLAUDE*.md
+!AGENTS.md
+
+## mcp settings/server's config
+!.mcp.json
+# mcp server's folder
+.serena
+.lsmcp
+
 
 ###	Develop
 # Node
