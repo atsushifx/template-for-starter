@@ -21,11 +21,10 @@ pre-commit:
         --maskSecrets
         "{staged_files}"
 
-# create commit message if message is null
 prepare-commit-msg:
   commands:
-    prepare-commit-message:
-      run: bash ./scripts/prepare-commit-msg.sh --to-buffer
+    prepare-message-script:
+      run: bash -c './scripts/prepare-commit-msg.sh --git-buffer'
 
 # check commit message as Conventional Commit
 commit-msg:

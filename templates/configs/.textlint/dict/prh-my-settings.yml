@@ -1,17 +1,10 @@
-## src: ./configs/.textlint/dict/prh-my-settings.yml
-## @(#) : textlint prh dictionary / atsushifx's add-on rules
+# src: templates/.textlint/allowlist.yml
+#  @(#) : textlint allowlist
 #
-# @version 1.0.0
-# @author  atsushifx <https://github.com/atsushifx>
-# @since   2025-05-14
-# @license MIT
+# Copyright (c) 2025 atsushifx <http://github.com/atsushifx>
 #
-# @desc<<
-#
-# textlint prh user dictionary for custom proofreading rules.
-# Intended to complement shared base dictionary.
-#
-#<<
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
 
 ## dict start
 rules:
