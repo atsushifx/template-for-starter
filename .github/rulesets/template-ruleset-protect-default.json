@@ -1,6 +1,5 @@
 {
-  "id": 9553558,
-  "name": "protected-main",
+  "name": "protect-default",
   "target": "branch",
   "source_type": "Repository",
   "source": "atsushifx/template-for-starter",
